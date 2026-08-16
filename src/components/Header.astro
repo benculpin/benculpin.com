@@ -1,0 +1,33 @@
+---
+interface Props {
+  active?: string;
+}
+const { active = '' } = Astro.props;
+const items = [
+  { href: '/notebook', label: 'Notebook', key: 'notebook' },
+  { href: '/home', label: 'Photography', key: 'photography' },
+  { href: '/films', label: 'Films', key: 'films' },
+  { href: 'https://www.damkind.xyz/', label: 'Podcast', key: 'podcast', external: true },
+  { href: '/about', label: 'About', key: 'about' },
+];
+---
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="wordmark">BC</a>
+    <button class="nav-toggle" type="button" aria-label="Menu" id="nav-toggle">☰</button>
+    <nav class="nav" id="site-nav">
+      {items.map((item) => (
+        item.external ? (
+          <a href={item.href} target="_blank" rel="noopener noreferrer">{item.label}</a>
+        ) : (
+          <a href={item.href} class={active === item.key ? 'active' : undefined}>{item.label}</a>
+        )
+      ))}
+    </nav>
+  </div>
+</header>
+<script>
+  const btn = document.getElementById('nav-toggle');
+  const nav = document.getElementById('site-nav');
+  btn?.addEventListener('click', () => nav?.classList.toggle('open'));
+</script>
