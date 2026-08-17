@@ -534,6 +534,7 @@ p { margin: 0 0 1em; }
   color: #222;
 }
 .article-body iframe { width: 100%; max-width: 100%; }
+.article-body img { margin: 1.25em 0; }
 .stub-note { color: #666; font-style: italic; }
 @media (max-width: 767px) {
   .article-hero-inner { grid-template-columns: 1fr; }
