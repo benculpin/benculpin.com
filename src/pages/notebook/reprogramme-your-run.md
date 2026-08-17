@@ -1,15 +1,16 @@
 ---
 layout: ../../layouts/NoteLayout.astro
-title: "Reprogramme Your Run"
+title: Reprogramme Your Run
 pubDate: 2023-01-30
 tags: "#note"
+cover: /images/notebook/reprogramme-your-run/Running-Headlines.024.jpeg
 ---
-
-Originally presented at a Lifely workshop as stimulus for the topic of "Innovation". --
+*Originally presented at a [Lifely](https://lifely.nl/) workshop as stimulus for the topic of "Innovation". *
+--
 
 ## Some words on barefoot running [and life].
 
-How do you run?
+**How do you run? **
 
 This is my answer.
 
@@ -65,4 +66,4 @@ There is no place else, besides the inner ear, that is more important for your b
 
 Your feet, your bare naked feet, are your first response to the world, yet these poor things have been shamed and locked up for so long.
 
-So without further a do: reset your feet, reprogramme you run, and connect to that deeper attuned toolkit that's in it for the long run.
+So without further a do: reset your feet,  reprogramme you run, and connect to that deeper attuned toolkit that's in it for the long run.
